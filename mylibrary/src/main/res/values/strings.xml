@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Library</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_net">当前无网络,请检查网络设置</string>
+    <string name="net_excep">网络异常</string>
+    <string name="location_excep">为了更好地获取天气信息，请打开允许定位功能</string>
+</resources>
