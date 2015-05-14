@@ -1,6 +1,7 @@
 package com.glucoseman.glucosemana;
 
 import com.common.library.activity.BaseActivity;
+import com.common.library.util.LogUtil;
 
 /**
  * Created by xing on 2015/5/13.
@@ -14,7 +15,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void initDatas() {
-
+        LogUtil.outLogDetail("test git commit");
     }
 
     @Override
