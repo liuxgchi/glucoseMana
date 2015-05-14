@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.common.library.util.LogUtil;
 import com.glucoseman.MyApplication;
 
 
@@ -16,6 +17,8 @@ public class AboutUsActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
+
+        LogUtil.outLogDetail("test git status again");
         TextView textView = (TextView) findViewById(R.id.about_us);
         String name = MyApplication.getInstance().getName();
         textView.setText(name);
