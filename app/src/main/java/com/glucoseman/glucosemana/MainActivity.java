@@ -16,7 +16,7 @@ public class MainActivity extends BaseActivity {
     @Override
     public void initDatas() {
         LogUtil.outLogDetail("test git status again");
-        LogUtil.outLogDetail("test git branch again");
+        LogUtil.outLogDetail("test git branch again master");
     }
 
     @Override
