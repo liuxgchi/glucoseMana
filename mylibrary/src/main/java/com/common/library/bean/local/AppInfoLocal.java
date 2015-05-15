@@ -1,4 +1,4 @@
-package com.common.library.bean.local.local;
+package com.common.library.bean.local;
 
 /**
  * Created by Administrator on 2015/1/29.
